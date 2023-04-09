@@ -6,7 +6,7 @@ function encrypt(text) {
         char = (ch.charCodeAt(0) + 6);
         encryptedWord += String.fromCharCode(char);
     }
-    return encryptedWord;
+    return  `Encrypted text: ${encryptedWord}`;
 }
 
 function decrypt(text) {
@@ -20,4 +20,4 @@ function decrypt(text) {
     return (decrypted)
 }
 
-console.log(encrypt("Party at five"));
+console.log(encrypt("AAMU Bulldogs"));
